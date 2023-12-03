@@ -1,0 +1,132 @@
+/* Stili per Gestione Vettori */
+.wrap {
+    font-family: Arial, sans-serif;
+}
+
+#new-vettore-form input[type="text"] {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+#new-vettore-form input[type="submit"] {
+    padding: 5px 15px;
+    background-color: #0071a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#new-vettore-form input[type="submit"]:hover {
+    background-color: #005f8d;
+}
+
+#elenco-vettori {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#elenco-vettori li {
+    list-style-type: none;
+    border: 1px solid #ddd;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#elenco-vettori li:nth-child(odd) {
+    background-color: #f2f2f2; /* Colore alternato per le righe */
+}
+
+#elenco-vettori li:hover {
+    background-color: #ddd; /* Colore al passaggio del mouse */
+}
+
+.delete-vettore {
+    background-color: #f44336; /* Colore di sfondo rosso */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-vettore:hover {
+    background-color: #d32f2f; /* Colore al passaggio del mouse */
+}
+
+/* Stili per la pagina Ordini */
+#new-ordine-form {
+    margin-bottom: 20px;
+}
+
+#new-ordine-form input, #new-ordine-form select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#new-ordine-form input[type="submit"] {
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#new-ordine-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Stili per l'elenco degli ordini */
+#elenco-ordini {
+    margin-top: 20px;
+}
+
+/* Stili tasto elimina degli ordini */
+.delete-ordine {
+    background-color: #f44336; /* Rosso */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-ordine:hover {
+    background-color: #d32f2f;
+}
+
+.gv-ordini-tabella {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.gv-ordini-tabella th, .gv-ordini-tabella td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.gv-ordini-tabella th {
+    background-color: #f4f4f4;
+}
+
+.gv-ordini-tabella tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.gv-ordini-tabella tr:hover {
+    background-color: #f1f1f1;
+}
+
