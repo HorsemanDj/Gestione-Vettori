@@ -52,6 +52,6 @@ Questo plugin è stato sviluppato da Riccardi Gaetano.
 
 ## Supporto
 
-Per assistenza, segnalazione di bug o suggerimenti, contatta l'autore all'indirizzo email [inserisci-indirizzo-email].
+Per assistenza, segnalazione di bug o suggerimenti, contatta l'autore all'indirizzo email info@riccardigaetano.it.
 
 Grazie per aver scelto il plugin "Gestione Vettori 1.0"! Speriamo che ti sia utile per la gestione dei tuoi vettori e per il monitoraggio delle consegne. Se hai domande o hai bisogno di ulteriori informazioni, non esitare a contattarci.
