@@ -44,6 +44,7 @@ function gv_add_ordine_ajax() {
         $table_ordini,
         array(
             'numero_ordine' => $numero_ordine,
+            'data_ordine' => $data_ordine,
             'data_consegna' => $data_consegna,
             'id_vettore' => $id_vettore
         )
